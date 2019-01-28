@@ -19,3 +19,11 @@ for username, user_info in users.items():
 
     print("\tFull name: " + full_name.title())
     print("\tLocation: " + location.title())
+
+    
+    
+# 另一种输出方式
+for username, user_info in users.items():
+    print("\n" + username.title() + ":")
+    for key, value in user_info.items():
+        print("\t" + key.title() + ": " + str(value).title())
