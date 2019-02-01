@@ -32,7 +32,7 @@ class Car():
         self.odometer_reading += miles
 
 
-my_new_car = Car('audi', 'a4', 2016)
+my_new_car = Car('audi', 'a8', 2018)
 print(my_new_car.get_desciptive_name())
 
 my_new_car.update_odometer(23500)
